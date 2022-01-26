@@ -22,8 +22,12 @@ We recommend you to validate environment variables inside the `env.ts` file.
 ## Variables for SUAP driver
 
 ```ts
-SUAP_CLIENT_ID: Env.schema.string(),
-SUAP_CLIENT_SECRET: Env.schema.string(),
+export default Env.rules({
+  //...
+  SUAP_CLIENT_ID: Env.schema.string(),
+  SUAP_CLIENT_SECRET: Env.schema.string(),
+  //...
+})
 ```
 
 ## Ally config for SUAP driver
