@@ -1,6 +1,6 @@
 {
   "name": "adonis-ally-suap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Driver OAuth do SUAP para o Adonis Ally",
   "main": "build/providers/index.js",
   "files": [
