@@ -7,7 +7,7 @@ export default class SuapProvider {
     const Ally = this.app.container.resolveBinding('Adonis/Addons/Ally')
     const { SuapDriver } = await import('../src/Suap')
 
-    Ally.extend('suapdriver', (_, __, config, ctx) => {
+    Ally.extend('suap', (_, __, config, ctx) => {
       return new SuapDriver(ctx, config)
     })
   }
