@@ -46,7 +46,20 @@ export default Env.rules({
 })
 ```
 
-Altere o arquivo `config/ally.ts`, para acrescentar o driver em sua configuração:
+Acrescente estas variáveis em seu arquivo de variáveis ambiente `.env`:
+```shell
+PORT=3333
+HOST=0.0.0.0
+NODE_ENV=development
+#...
+SUAP_CLIENT_ID=...
+SUAP_CLIENT_SECRET=...
+
+```
+
+Para conseguir um Client ID e um Client Secret, acesse a [página da API](https://suap.ifrn.edu.br/api/) do SUAP.
+
+Por fim, altere o arquivo `config/ally.ts`, para acrescentar o driver em sua configuração:
 ```ts
 const allyConfig: AllyConfig = {
   // ... other drivers
