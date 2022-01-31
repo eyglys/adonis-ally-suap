@@ -13,7 +13,8 @@
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "types": ["@types/node", "@adonisjs/core", "@adonisjs/ally"]
+    // "types": ["@types/node", "@adonisjs/core", "@adonisjs/ally"]
+    "types": ["@types/node", "@adonisjs/core", "@eyglys/adonis-ally"]
   },
   "include": ["**/*"],
   "exclude": ["node_modules", "build"]

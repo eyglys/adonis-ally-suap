@@ -1,6 +1,7 @@
 import type { AllyUserContract, RedirectRequestContract } from '@ioc:Adonis/Addons/Ally'
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import { Oauth2Driver, ApiRequest } from '@adonisjs/ally/build/standalone'
+// import { Oauth2Driver, ApiRequest } from '@adonisjs/ally/build/standalone'
+import { Oauth2Driver, ApiRequest } from '@eyglys/adonis-ally/build/standalone'
 
 export type SuapToken = {
   token: string

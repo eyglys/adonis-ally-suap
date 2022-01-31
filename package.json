@@ -1,6 +1,6 @@
 {
   "name": "adonis-ally-suap",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Driver OAuth do SUAP para o Adonis Ally",
   "main": "build/providers/index.js",
   "types": "./build/standalone.d.ts",
@@ -29,7 +29,7 @@
   "author": "Keylly Eyglys (eyglys.araujo@ifrn.edu.br)",
   "license": "MIT",
   "devDependencies": {
-    "@adonisjs/ally": "^4.0.0",
+    "@eyglys/adonis-ally": "^4.1.1",
     "@adonisjs/core": "^5.1.8",
     "@types/node": "^15.12.2",
     "copyfiles": "^2.4.1",
